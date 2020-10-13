@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flash Cards</title>
+	<link rel="stylesheet" type="text/css" href="Flashcards.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<h2>Flashcards</h2>
+	<button id="question-btn" class="questionbtn">Add Question</button>
+	<div id="entries" class="invisible">
+		<div id="error-msg" class="invisible"> <p>    Cannot Add Empty Values</p></div>
+		<label>Qustion:</label>
+		<button id="close-btn">X</button>
+        <textarea id="qustion-text" name="qustion" rows="5" cols="50"></textarea>
+		<label>Answer:</label>
+		<textarea id="answer-text" name="answer" rows="5" cols="50"></textarea>
+		<button id="save-btn" class="btn">Save</button>
+	</div>
+	<div id="questions" class="questions">
+		
+	</div>
+<script type="text/javascript" src="Flashcards.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+width: 85%;
+margin: auto;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+background-color: rgba(191, 189, 193, 0.2);
+}
+
+#question-btn{
+  border-width: 1px;
+  font-size: 1em;
+}
+.questionbtn {
+	background: none;
+	border-color:  #ef8354;
+	padding: 10px;
+	color: #ef8354;
+}
+
+.questionbtn:hover{
+	background: #ef8354;
+	color: black;
+}
+
+textarea{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-color: #ef8354;
+	border-radius: 3px;
+	resize: vertical;
+}
+
+#entries {
+	margin-top: 20px;
+	width: 45%;
+	border:1px solid #ef8354;
+	padding: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 40px;
+	border-radius: 5px;
+	position: relative;
+}
+
+#save-btn{
+	width: 50%;
+	font-size: 0.8em;
+
+}
+
+.btn{
+	background:none;
+	border-color: #335c67;
+	color: #335c67;
+	padding: 10px;
+}
+.btn:hover{
+	background-color: #335c67;
+	color: black;
+}
+
+#close-btn{
+	background: #ef8354;
+	color: white;
+	border:none;
+	font-size: 1.1em;
+	font-weight: bolder;
+	position: absolute;
+	left: 92%;
+	top: 3%;
+}
+
+button {
+border-radius: 4px;
+outline: none;
+text-align: center;
+cursor: pointer;
+border-style: solid;
+border-width: 3px;
+}
+
+.invisible{
+	display: none;
+}
+
+.question{
+width: 28%;
+border: 1px solid rgba(191, 189, 193, 0.5);
+background-color: white;
+border-radius: 5px;
+margin-bottom: 2%;
+padding: 20px;
+word-wrap: break-word;
+}
+
+.questions{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 3%;
+	align-items: flex-start;
+}
+
+.showlink{
+	background: none;
+	border: none;
+	color: blue;
+}
+
+.showlink:hover{
+	text-decoration: underline;
+	color: navy;
+}
+
+#error-msg {
+	width: 80%;
+	border-radius: 5px;
+	padding:0 5px;
+	font-size: 0.7em;
+	background-color: rgba(230, 10, 10, 0.2);
+	font-weight: lighter;
+	color:#912f40;
+}
+
+.questiontext {
+	text-transform: capitalize;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.answertext {
+	text-transform: lowercase;
+	font-weight: bold;
+}
